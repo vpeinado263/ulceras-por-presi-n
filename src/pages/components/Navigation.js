@@ -1,10 +1,14 @@
-import React from 'react'
+import Link from "next/link"
 
 const Navigation = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <nav>
+        <Link href="/">Inicio</Link>
+        <Link href="/cuidados">Cuidado Integral de UPP</Link>
+        <Link href="/productos">Productos Nesesarios</Link>
+      </nav>
+    </>
   )
 }
 
