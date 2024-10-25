@@ -1,5 +1,5 @@
-// src/components/Contador.js
-const ContadorCambios = ({ contador, incrementar, resetearContador }) => {
+
+const ContadorCambios = ({ contador, resetearContador }) => {
   return (
     <div className="contador-cambios-container">
       <h3>Contador de Cambios de Posición</h3>
@@ -7,9 +7,8 @@ const ContadorCambios = ({ contador, incrementar, resetearContador }) => {
       <div className="botones">
         <button onClick={resetearContador}>Reiniciar Contador</button>
       </div>
-
-      <style jsx>{`
-        .contador-cambios-container {
+     <style jsx>{`
+      .contador-cambios-container {
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -17,12 +16,12 @@ const ContadorCambios = ({ contador, incrementar, resetearContador }) => {
           padding: 20px;
           margin: 20px 0;
           background-color: #f9f9f9;
-        }
-        .botones {
+      }
+      .botones {
           display: flex;
           gap: 10px;
           margin-top: 10px;
-        }
+       }
         button {
           padding: 10px 20px;
           background-color: #0070f3;
