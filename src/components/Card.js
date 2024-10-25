@@ -6,11 +6,11 @@ const Card = ({producto}) => {
     return(
         <>
         <figure>
-            <img src=""/>
+            <img src={img} alt={title}/>
             <figcaption>
-                <h3></h3>
+                <h3>{title}</h3>
             </figcaption>
-            <p></p>
+            <p>{text}</p>
             <Button/>
         </figure>
         <style jsx>{`
