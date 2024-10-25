@@ -6,14 +6,15 @@ const productos = [
         img: "https://http2.mlstatic.com/D_NQ_NP_716492-MLA52853049595_122022-O.webp",
         title:  "Colchones de aire o espuma",
         text: "Para reducir la presión en las áreas vulnerables.",
-        bgcolor: "red",
+        bgcolor: "green",
     },
     {
         id: 2,
         img: "https://botiquinsans.com/wp-content/uploads/2023/03/Aposito_hidrocoloide_comfeel_plus_20_cm_x_20_cm_10-300x300.jpg",
         title:  "Apósitos para heridas",
         text: "Apósito hidrocoloide: Mantiene un ambiente húmedo para la cicatrización.",
-        bgcolor: "red",
+        bgcolor: "yellow",
+        ccolor: "black",
     },
     {
         id: 3,
@@ -27,7 +28,7 @@ const productos = [
         img: "https://prevencionulcerasyheridas.com/wp-content/uploads/2021/10/Almohadilla-sacro.jpg",
         title:  "Materiales de fijación y sujeción:",
         text: "Gasas estériles: Para cubrir heridas y aplicar apósitos.",
-        bgcolor: "red",
+        bgcolor: "blue",
       }
   ];
 
