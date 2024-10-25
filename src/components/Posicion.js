@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from "react"
 
 const Posicion = () => {
     const [posicion, setPosicion] = useState("Decubito supino")
