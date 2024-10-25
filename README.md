@@ -1,13 +1,6 @@
-# Insumos Tratamiento UPP 🚀
+# 3ra-Tarea-REACT-NEXT.JS🚀
 
 Este proyecto fue creado como parte de mi aprendizaje en **React** y  **Next.js** , para mostrar mis habilidades en el desarrollo de aplicaciones web modernas. El proyecto incluye conceptos clave como enrutamiento automático, manejo de estado, flujo de datos unidireccional, y componentes funcionales en React.
-
-## Tecnologías Utilizadas 🛠️
-
-* **React** : Biblioteca de JavaScript para construir interfaces de usuario interactivas.
-* **Next.js** : Framework basado en React que permite el enrutamiento automático y la optimización de SEO.
-* **JavaScript (JSX)** : Extensión de sintaxis de JavaScript utilizada para crear componentes de UI en React.
-* **npm** : Gestor de paquetes para instalar dependencias, como React y Next.js, y otras librerías.
 
 ## Aprendizajes 🎓
 
@@ -30,7 +23,7 @@ Este proyecto fue creado como parte de mi aprendizaje en **React** y  **Next.js*
 
 ### 5. Programación Reactiva y Estados
 
-* **useState y useEffect** : Aprendí a manejar el estado y efectos secundarios con estos hooks, lo cual es fundamental para la programación reactiva en React.
+* **useState ** : Aprendí a manejar el estado, lo cual es fundamental para la programación reactiva en React.
 * **Acción y Reacción** : El estado cambia en respuesta a acciones del usuario, actualizando automáticamente la UI.
 
 ### 6. Ejemplo Práctico: Contador
@@ -40,16 +33,9 @@ Este proyecto fue creado como parte de mi aprendizaje en **React** y  **Next.js*
 ## Desafíos 🏆
 
 * **Flujo de Datos y Props** : Entender el flujo de datos unidireccional en React y aprender a pasar datos solo de padres a hijos fue uno de los retos iniciales.
-* **Configuración de Componentes y Hooks** : Usar correctamente `useState` y `useEffect` y entender su impacto en el ciclo de vida del componente fue clave para lograr una UI reactiva y optimizada.
 
 ## Extensiones Utilizadas
 
 Para mejorar mi flujo de trabajo, instalé algunas extensiones de VS Code:
 
 * **ES7 React/Redux/React-Native snippets** : Atajos útiles para crear componentes de React rápidamente.
-
-### Atajos Útiles
-
-* `rafc`: Genera un componente funcional con exportación por defecto.
-* `rfc`: Genera un componente funcional sin exportación.
-* `rcc`: Genera un componente basado en clases.
