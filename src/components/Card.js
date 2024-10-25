@@ -1,7 +1,7 @@
 import Button from "./Button"
 
 const Card = ({producto}) => {
-    const {img,title, text, bgcolor} = producto;
+    const {img,title, text, bgcolor, ccolor} = producto;
 
     return(
         <>
@@ -11,7 +11,7 @@ const Card = ({producto}) => {
                 <h3>{title}</h3>
             </figcaption>
             <p>{text}</p>
-            <Button bgcolor={bgcolor}/>
+            <Button bgcolor={bgcolor} ccolor={ccolor}/>
         </figure>
         <style jsx>{`
         figure {
