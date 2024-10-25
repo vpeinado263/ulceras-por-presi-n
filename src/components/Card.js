@@ -1,14 +1,14 @@
 import Button from "./Button"
 
-const Card = ({value}) => { //Recivo la propieda value
+const Card = ({producto}) => { //Recivo la propieda value
     return(
         <>
         <figure>
-            <img src="https://http2.mlstatic.com/D_NQ_NP_716492-MLA52853049595_122022-O.webp"/>
+            <img src=""/>
             <figcaption>
-                <h3>Colchones de aire o espuma:{value}</h3>
+                <h3></h3>
             </figcaption>
-            <p>Para reducir la presión en las áreas vulnerables.</p>
+            <p></p>
             <Button/>
         </figure>
         <style jsx>{`
