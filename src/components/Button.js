@@ -4,7 +4,7 @@ const Button = ({bgcolor, ccolor}) => {
         <button>Adquirir</button>
         <style jsx>{`
             button {
-                color: ${ccolor ? ccolor : "white"};
+                color: ${!ccolor ? "white" : ccolor};
                 background-color: ${bgcolor};
                 border: none;
                 border-radius: .5rem;
