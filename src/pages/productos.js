@@ -1,5 +1,5 @@
-import Navigation from '@/components/Navigation'
-import Section from '@/components/Section'
+import Navigation from '@/components/organismos/Navigation'
+import Section from '@/components/tamplates/Section'
 import Head from 'next/head'
 
 const Productos = () => {

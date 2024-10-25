@@ -1,4 +1,5 @@
-import Button from "./Button"
+import Button from "../atomos/Button";
+
 
 const Card = ({producto}) => {
     const {img,title, text, bgcolor, ccolor} = producto;

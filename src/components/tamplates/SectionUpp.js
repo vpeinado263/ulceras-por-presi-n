@@ -1,6 +1,8 @@
 import { useState } from "react";
-import ContadorCambios from "./Contador";
-import Posicion from "./Posicion";
+import ContadorCambios from "../moleculas/Contador";
+import Posicion from "../moleculas/Posicion";
+
+
 
 const SectionUpp = () => {
   const initialState = 0;
@@ -11,12 +13,12 @@ const SectionUpp = () => {
 
   return (
     <div>
-      <Posicion incrementar={incrementar} />
-      <ContadorCambios
-        contador={contador}
+      <Posicion incrementar={incrementar}/>
+      <ContadorCambios contador={contador}
         incrementar={incrementar}
         resetearContador={resetearContador}
       />
+        
     </div>
   );
 };

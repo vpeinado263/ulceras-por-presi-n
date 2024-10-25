@@ -1,4 +1,5 @@
-import CardContainer from "./CardsContainer"
+import CardContainer from "../organismos/CardsContainer"
+
 
 const Section = () => {
     return (

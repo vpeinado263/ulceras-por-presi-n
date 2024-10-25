@@ -1,5 +1,5 @@
-import Navigation from "@/components/Navigation";
-import SectionUpp from "@/components/SectionUpp"
+import Navigation from "@/components/organismos/Navigation";
+import SectionUpp from "@/components/tamplates/SectionUpp";
 import Head from "next/head";
 
 const Cuidados =  () => {
