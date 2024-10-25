@@ -36,9 +36,7 @@ const CardContainer = () => {
     <>
         <div>
             {
-                x.map(item => (
-                    <Card key={item} value={item}/> //Aqui pasamos una 'key' y una propiedad 'value'
-                ))
+             productos.map(producto => <Card producto={producto}/>)
             }
         </div>
         <style jsx>{`
