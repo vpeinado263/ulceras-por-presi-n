@@ -1,9 +1,8 @@
-// src/components/PosicionContador.js
 import { useState } from "react";
 import ContadorCambios from "./Contador";
 import Posicion from "./Posicion";
 
-const PosicionContador = () => {
+const SectionUpp = () => {
   const initialState = 0;
   const [contador, setContador] = useState(initialState);
 
@@ -22,4 +21,4 @@ const PosicionContador = () => {
   );
 };
 
-export default PosicionContador;
+export default SectionUpp;
