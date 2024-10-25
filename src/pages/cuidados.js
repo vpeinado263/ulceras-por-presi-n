@@ -1,6 +1,6 @@
 import SectionUpp from "@/components/SectionUpp"
 
-const Productos = () => {
+const Cuidados =  () => {
   return (
     <>
     <SectionUpp/>
@@ -8,4 +8,4 @@ const Productos = () => {
   )
 }
 
-export default Productos
+export default Cuidados;
