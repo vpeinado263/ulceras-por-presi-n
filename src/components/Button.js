@@ -1,11 +1,11 @@
-const Button = () => {
+const Button = ({bgcolor}) => {
     return(
         <>
         <button>Adquirir</button>
         <style jsx>{`
             button {
                 color: white;
-                background-color: rgb(52, 131, 250);
+                background-color: ${bgcolor};
                 border: none;
                 border-radius: .5rem;
                 box-shadow: 1px 2px 2px black;
