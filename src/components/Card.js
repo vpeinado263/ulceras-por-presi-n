@@ -11,7 +11,7 @@ const Card = ({producto}) => {
                 <h3>{title}</h3>
             </figcaption>
             <p>{text}</p>
-            <Button/>
+            <Button bgcolor={bgcolor}/>
         </figure>
         <style jsx>{`
         figure {
