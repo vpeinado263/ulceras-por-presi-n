@@ -1,19 +1,11 @@
-import { useState } from "react";
-
-const ContadorCambios = () => {
-  const initialState = 0;
-  const [contador, setContador] = useState(initialState);
-
-  const incrementar = () => setContador((prev) => prev + 1);
-  const resetear = () => setContador(initialState);
-
+// src/components/Contador.js
+const ContadorCambios = ({ contador, incrementar, resetearContador }) => {
   return (
     <div className="contador-cambios-container">
       <h3>Contador de Cambios de Posición</h3>
       <p>{contador} cambio(s) realizado(s)</p>
       <div className="botones">
-        <button onClick={incrementar}>Registrar Cambio</button>
-        <button onClick={resetear}>Reiniciar Contador</button>
+        <button onClick={resetearContador}>Reiniciar Contador</button>
       </div>
 
       <style jsx>{`
