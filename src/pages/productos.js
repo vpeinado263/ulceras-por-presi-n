@@ -1,5 +1,9 @@
+import Button from '@/components/Button'
 import Navigation from '@/components/Navigation'
+import Propiedades from '@/components/Propiedades'
 import Head from 'next/head'
+
+
 
 const Productos = () => {
   return (
@@ -10,6 +14,19 @@ const Productos = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Navigation/>
+      <Propiedades
+       cadena="Hola soy una cadenita"
+       numero={35}
+       booleano={true ? 1 : 0}
+       arreglo={[1,2,3,4]} 
+       objeto={{
+         Nombre: "Academia",
+         Apellido: "Numen"
+       }}
+       funcion={() => 3 * 4}
+       elementoJSX={<p>esto es similar a HTML</p>}
+       componenteReact={<Button/>}
+      />
     </>
   )
 }
