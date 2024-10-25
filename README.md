@@ -34,8 +34,6 @@ Este proyecto fue creado como parte de mi aprendizaje en **React** y  **Next.js*
 
 * **Flujo de Datos y Props** : Entender el flujo de datos unidireccional en React y aprender a pasar datos solo de padres a hijos fue uno de los retos iniciales.
 
-## Extensiones Utilizadas
+ESTRUCTURA de componentes- Atomic desing
 
-Para mejorar mi flujo de trabajo, instalé algunas extensiones de VS Code:
-
-* **ES7 React/Redux/React-Native snippets** : Atajos útiles para crear componentes de React rápidamente.
+* El proyecto sigue la metodologia Atomic Desing para organizar y utilizat componentes en cinco categorías principales: ATOMO, MOLÉCULAS, ORGANISMOS, TEMPLATES, PAGINAS.
