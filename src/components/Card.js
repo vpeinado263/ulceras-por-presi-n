@@ -1,6 +1,8 @@
 import Button from "./Button"
 
-const Card = ({producto}) => { //Recivo la propieda value
+const Card = ({producto}) => {
+    const {img,title, text, bgcolor} = producto;
+
     return(
         <>
         <figure>
