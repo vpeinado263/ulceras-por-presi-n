@@ -16,7 +16,10 @@ const ContadorCambios = ({ contador, resetearContador }) => {
           border: 1px solid #ccc;
           padding: 20px;
           margin: 20px 0;
-          background-color: #f9f9f9;
+          background-color: rgb(53, 94, 103);
+      }
+      .contador-cambios-container:hover {
+        background-color: rgb(153, 211, 229); 
       }
       .botones {
           display: flex;
