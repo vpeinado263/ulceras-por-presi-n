@@ -1,44 +1,20 @@
-import Button from "../atomos/Button";
+// moleculas/Card.js
+import Image from 'next/image';
 
+const Card = ({ producto }) => {
+  return (
+    <div style={{ backgroundColor: producto.bgcolor, width: '200px', margin: '10px', padding: '10px', borderRadius: '8px' }}>
+      <Image
+        src={producto.img}
+        alt={producto.title}
+        width={200} 
+        height={150} 
+        layout="responsive" 
+      />
+      <h2>{producto.title}</h2>
+      <p>{producto.text}</p>
+    </div>
+  );
+};
 
-const Card = ({producto}) => {
-    const {img,title, text, bgcolor, ccolor} = producto;
-
-    return(
-        <>
-        <figure>
-            <img src={img} alt={title}/>
-            <figcaption>
-                <h3>{title}</h3>
-            </figcaption>
-            <p>{text}</p>
-            <Button bgcolor={bgcolor} ccolor={ccolor}/>
-        </figure>
-        <style jsx>{`
-        figure {
-            width: 200px;
-            height: 500px;
-            border: 2px solid rgb(52, 131, 250);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border-radius: 1rem;
-        }
-        img {
-            width: 100%;
-            height: 40%;
-            border-radius: 5rem;
-        }
-        h3 {
-            font-size: 1rem;
-            text-aling: center;
-        }
-        p{
-            font-size: 1rem;
-            text-aling: center;
-        }
-        `}</style>
-        </>
-    )
-}
-export default Card
+export default Card;

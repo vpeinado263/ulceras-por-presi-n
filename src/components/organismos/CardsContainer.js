@@ -38,9 +38,10 @@ const CardContainer = () => {
     <>
         <div>
             {
-             productos.map(producto => <Card producto={producto}/>)
+             productos.map(producto => <Card key={producto.id} producto={producto}/>)
             }
         </div>
+        
         <style jsx>{`
         div {
             display: flex;
