@@ -1,3 +1,4 @@
+import Button from "../atomos/Button";
 import Card from "../moleculas/Card";
 
 
@@ -39,6 +40,7 @@ const CardContainer = () => {
         <div>
             {
              productos.map(producto => <Card key={producto.id} producto={producto}/>)
+         
             }
         </div>
         

@@ -1,5 +1,5 @@
-// moleculas/Card.js
 import Image from 'next/image';
+import Button from '../atomos/Button';
 
 const Card = ({ producto }) => {
   return (
@@ -13,6 +13,7 @@ const Card = ({ producto }) => {
       />
       <h2>{producto.title}</h2>
       <p>{producto.text}</p>
+      <Button/>
     </div>
   );
 };

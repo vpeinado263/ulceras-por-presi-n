@@ -7,6 +7,7 @@ const ContadorCambios = ({ contador, resetearContador }) => {
       <div className="botones">
         <button onClick={resetearContador}>Reiniciar Contador</button>
       </div>
+      
      <style jsx>{`
       .contador-cambios-container {
           display: flex;

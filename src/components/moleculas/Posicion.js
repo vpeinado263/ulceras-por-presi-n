@@ -1,6 +1,8 @@
 import { useState } from "react";
+import Image from "next/image";
 
 const initialState = "Decúbito supino"; 
+
 const Posicion = ({ incrementar }) => {
   const [posicion, setPosicion] = useState(initialState);
 
@@ -22,7 +24,13 @@ const Posicion = ({ incrementar }) => {
       <div>
         <h1>Cambios Posturales</h1>
         <h3>Posición Actual: {posicion}</h3>
-        <img src={imagenesPosiciones[posicion]} alt={posicion} />
+        <Image 
+         src={imagenesPosiciones[posicion]} 
+         alt={posicion} 
+         width={400}
+         height={200}
+         />
+
         <div>
           <button onClick={() => cambiarPosicion("Decúbito Lateral (izquierdo-Derecho)")}>
             Decúbito Lateral
@@ -38,11 +46,6 @@ const Posicion = ({ incrementar }) => {
         div {
           text-align: center;
         }
-        img {
-          width: 400px;
-          height: 200px;
-        }
-
         button {
           margin: 10px;
           padding: 10px 20px;
