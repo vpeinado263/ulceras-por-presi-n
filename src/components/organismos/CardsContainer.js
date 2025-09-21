@@ -1,4 +1,3 @@
-import Button from "../atomos/Button";
 import Card from "../moleculas/Card";
 
 const productos = [
