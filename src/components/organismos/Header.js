@@ -1,20 +1,11 @@
-import Image from "next/image";
-
 const Header = () => {
   return (
     <>
       <header className="header">
-        <Image
-          src="/post.png"
-          alt="Fondo"
-          width={200}
-          height={150}
-          layout="responsive"
-        />
         <div className="overlay"></div>
         <div className="content">
           <h1 className="title">Bienvenido</h1>
-          <p className="sbtitle">ULCERAS POR PRESIÓN</p>
+          <p className="subtitle">ÚLCERAS POR PRESIÓN</p>
         </div>
       </header>
 
@@ -22,10 +13,8 @@ const Header = () => {
         .header {
           position: relative;
           width: 100%;
-          height: 400px;
-          background-image: url("/post.png");
-          background-size: cover;
-          background-position: center;
+          min-height: 120px;
+          background-color: #333; /* fondo neutro */
           display: flex;
           align-items: center;
           justify-content: center;
@@ -38,12 +27,7 @@ const Header = () => {
           left: 0;
           width: 100%;
           height: 100%;
-          background-color: rgba(
-            0,
-            0,
-            0,
-            0.5
-          ); /* Oscurece la imagen de fondo */
+          background-color: rgba(0, 0, 0, 0.5);
           z-index: 1;
         }
         .content {
@@ -51,12 +35,12 @@ const Header = () => {
           z-index: 2;
         }
         .title {
-          font-size: 3rem;
+          font-size: 2rem;
           font-weight: bold;
         }
         .subtitle {
-          font-size: 1.5rem;
-          margin-top: 10px;
+          font-size: 1rem;
+          margin-top: 5px;
         }
       `}</style>
     </>
