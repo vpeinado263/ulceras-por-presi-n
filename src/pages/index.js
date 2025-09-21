@@ -1,4 +1,5 @@
-import Header from "@/components/atomos/Header";
+
+import Header from "@/components/organismos/Header";
 import Navigation from "@/components/organismos/Navigation";
 import Head from "next/head";
 
