@@ -1,4 +1,3 @@
-
 const ContadorCambios = ({ contador, resetearContador }) => {
   return (
     <div className="contador-cambios-container">
@@ -7,9 +6,9 @@ const ContadorCambios = ({ contador, resetearContador }) => {
       <div className="botones">
         <button onClick={resetearContador}>Reiniciar Contador</button>
       </div>
-      
-     <style jsx>{`
-      .contador-cambios-container {
+
+      <style jsx>{`
+        .contador-cambios-container {
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -17,15 +16,15 @@ const ContadorCambios = ({ contador, resetearContador }) => {
           padding: 20px;
           margin: 20px 0;
           background-color: rgb(53, 94, 103);
-      }
-      .contador-cambios-container:hover {
-        background-color: rgb(153, 211, 229); 
-      }
-      .botones {
+        }
+        .contador-cambios-container:hover {
+          background-color: rgb(153, 211, 229);
+        }
+        .botones {
           display: flex;
           gap: 10px;
           margin-top: 10px;
-       }
+        }
         button {
           padding: 10px 20px;
           background-color: #0070f3;
@@ -43,4 +42,3 @@ const ContadorCambios = ({ contador, resetearContador }) => {
 };
 
 export default ContadorCambios;
-

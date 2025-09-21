@@ -1,17 +1,17 @@
-import Link from "next/link"
+import Link from "next/link";
 
 const Navigation = () => {
   return (
     <>
-    <div>
-    <nav className="navbar">
-        <Link href="/">Inicio</Link>
-        <Link href="/cuidados">Cuidado Integral de UPP</Link>
-        <Link href="/productos">Productos Nesesarios</Link>
-      </nav>
-    </div>
-    <style jsx>{`
-         div {
+      <div>
+        <nav className="navbar">
+          <Link href="/">Inicio</Link>
+          <Link href="/cuidados">Cuidado Integral de UPP</Link>
+          <Link href="/productos">Productos Nesesarios</Link>
+        </nav>
+      </div>
+      <style jsx>{`
+        div {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -30,7 +30,9 @@ const Navigation = () => {
           color: #000;
           text-decoration: none;
           padding: 0.5rem;
-          transition: color 0.3s, background-color 0.3s;
+          transition:
+            color 0.3s,
+            background-color 0.3s;
           border-radius: 4px;
         }
         nav :global(a:hover) {
@@ -39,7 +41,7 @@ const Navigation = () => {
         }
       `}</style>
     </>
-  )
-}
+  );
+};
 
-export default Navigation
+export default Navigation;
