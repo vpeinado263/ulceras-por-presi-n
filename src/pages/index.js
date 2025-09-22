@@ -1,6 +1,5 @@
-
 import Layout from "@/components/layout/Layout";
-import Header from "@/components/organismos/Header";
+import HomeHero from "@/components/organismos/HomeHero";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,7 +13,7 @@ export default function Home() {
       </Head>
       
       <Layout>
-       <Header />
+        <HomeHero />
       </Layout>
     </>
   );

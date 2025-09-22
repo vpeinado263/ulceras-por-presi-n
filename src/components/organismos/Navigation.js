@@ -3,41 +3,43 @@ import Link from "next/link";
 const Navigation = () => {
   return (
     <>
-      <div>
-        <nav className="navbar">
-          <Link href="/">Inicio</Link>
-          <Link href="/cuidados">Cuidado Integral de UPP</Link>
-          <Link href="/productos">Productos Nesesarios</Link>
-        </nav>
-      </div>
+       <nav className="navigation">
+        <ul>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/productos">Productos</Link></li>
+          <li><Link href="/cuidados">Cuidados</Link></li>
+        </ul>
+      </nav>
       <style jsx>{`
-        div {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: rgb(139, 205, 222);
-          padding: 1rem;
+        .navigation {
+          position: fixed;
+          top: 0;
+          left: 0;
           width: 100%;
-          border-radius: 1rem;
-        }
-        nav {
+          height: 60px;
+          background-color: #222;
+          color: white;
           display: flex;
-          gap: 2rem;
-          font-weight: bold;
-          font-family: sans-serif;
+          align-items: center;
+          justify-content: center;
+          z-index: 10;
         }
-        nav :global(a) {
-          color: #000;
+        ul {
+          display: flex;
+          gap: 20px;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        li {
+          cursor: pointer;
+        }
+        a {
+          color: white;
           text-decoration: none;
-          padding: 0.5rem;
-          transition:
-            color 0.3s,
-            background-color 0.3s;
-          border-radius: 4px;
         }
-        nav :global(a:hover) {
-          color: #fff;
-          background-color: rgb(107, 174, 191);
+        a:hover {
+          text-decoration: underline;
         }
       `}</style>
     </>
